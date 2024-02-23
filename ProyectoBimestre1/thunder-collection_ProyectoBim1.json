@@ -1,0 +1,313 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "ProyectoBim1",
+    "dateExported": "2024-02-23T17:36:30.507Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "a291d698-bb00-4838-8e55-e71c3396e229",
+            "name": "category",
+            "containerId": "",
+            "created": "2024-02-23T06:45:17.366Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "e178414e-f751-43f9-96a6-022ab62e3f67",
+            "name": "product",
+            "containerId": "",
+            "created": "2024-02-23T06:46:02.377Z",
+            "sortNum": 20000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "aeebed28-3309-44c7-811e-0e171c7fe68e",
+            "colId": "b18fcf7f-f243-4a3f-9d58-b5297a84848e",
+            "containerId": "a291d698-bb00-4838-8e55-e71c3396e229",
+            "name": "registerCategory",
+            "url": "registerCategory",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-23T06:45:45.855Z",
+            "modified": "2024-02-23T13:15:54.272Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "nameCategory",
+                        "value": "electronics"
+                    },
+                    {
+                        "name": "description",
+                        "value": "categoria de aparatos electronicos"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "00265fe4-96c5-4f87-8661-be66f235e509",
+            "colId": "b18fcf7f-f243-4a3f-9d58-b5297a84848e",
+            "containerId": "e178414e-f751-43f9-96a6-022ab62e3f67",
+            "name": "registerProduct",
+            "url": "registerProduct",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-23T06:46:18.732Z",
+            "modified": "2024-02-23T13:35:05.379Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "productName",
+                        "value": "Tv Smart"
+                    },
+                    {
+                        "name": "brand",
+                        "value": "Samsung"
+                    },
+                    {
+                        "name": "price",
+                        "value": "Q8,500.00"
+                    },
+                    {
+                        "name": "productDescription",
+                        "value": "Television smart samsung de 45 pulgadas"
+                    },
+                    {
+                        "name": "category",
+                        "value": "65d89ef5713fbf1b09744696"
+                    },
+                    {
+                        "name": "stock",
+                        "value": "22"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "d51afbf8-f58d-41c7-b839-94511b1873a6",
+            "colId": "b18fcf7f-f243-4a3f-9d58-b5297a84848e",
+            "containerId": "a291d698-bb00-4838-8e55-e71c3396e229",
+            "name": "getCategory",
+            "url": "getCategory",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-23T06:45:49.096Z",
+            "modified": "2024-02-23T13:15:03.037Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "837e08e4-b708-4339-8ea3-15acacb70780",
+            "colId": "b18fcf7f-f243-4a3f-9d58-b5297a84848e",
+            "containerId": "e178414e-f751-43f9-96a6-022ab62e3f67",
+            "name": "deleteProduct",
+            "url": "deleteProduct/65cef48e284dd42117924e42",
+            "method": "DELETE",
+            "sortNum": 20000,
+            "created": "2024-02-23T06:46:20.518Z",
+            "modified": "2024-02-23T13:37:03.300Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0c89477f-9657-4805-8c50-66fdc47ab6ae",
+            "colId": "b18fcf7f-f243-4a3f-9d58-b5297a84848e",
+            "containerId": "a291d698-bb00-4838-8e55-e71c3396e229",
+            "name": "updateCategory",
+            "url": "updateCategory/65ceec0a411a44f3fb45ebf6",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-02-23T06:45:50.479Z",
+            "modified": "2024-02-23T13:16:14.308Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "nameCategory",
+                        "value": "sports"
+                    },
+                    {
+                        "name": "description",
+                        "value": "",
+                        "isDisabled": true
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "ce2c840b-4951-403c-85c5-a5f97c616cbb",
+            "colId": "b18fcf7f-f243-4a3f-9d58-b5297a84848e",
+            "containerId": "e178414e-f751-43f9-96a6-022ab62e3f67",
+            "name": "getProduct",
+            "url": "getProduct",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-23T06:46:22.495Z",
+            "modified": "2024-02-23T13:37:10.510Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "978cd6a2-fd7d-4030-a548-bbb96df152d6",
+            "colId": "b18fcf7f-f243-4a3f-9d58-b5297a84848e",
+            "containerId": "a291d698-bb00-4838-8e55-e71c3396e229",
+            "name": "deleteCategory",
+            "url": "deleteCategory/65d89a8a713fbf1b09744692",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-02-23T06:45:52.024Z",
+            "modified": "2024-02-23T13:18:29.647Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "fea3fdbf-1dcf-41b2-8df8-b0ba068c5188",
+            "colId": "b18fcf7f-f243-4a3f-9d58-b5297a84848e",
+            "containerId": "e178414e-f751-43f9-96a6-022ab62e3f67",
+            "name": "updateProduct",
+            "url": "updateProduct/",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-02-23T06:46:24.063Z",
+            "modified": "2024-02-23T13:37:14.677Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "productName",
+                        "value": ""
+                    },
+                    {
+                        "name": "brand",
+                        "value": ""
+                    },
+                    {
+                        "name": "price",
+                        "value": ""
+                    },
+                    {
+                        "name": "productDescription",
+                        "value": ""
+                    },
+                    {
+                        "name": "category",
+                        "value": ""
+                    },
+                    {
+                        "name": "stock",
+                        "value": ""
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "c71dd527-0830-4bf9-b9f0-848234b5ddbe",
+            "colId": "b18fcf7f-f243-4a3f-9d58-b5297a84848e",
+            "containerId": "e178414e-f751-43f9-96a6-022ab62e3f67",
+            "name": "seeOneProduct",
+            "url": "seeOneProduct",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-02-23T06:46:25.575Z",
+            "modified": "2024-02-23T13:37:19.011Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "search",
+                        "value": ""
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "34f061b0-7083-4d15-946c-38fda5d4f78e",
+            "colId": "b18fcf7f-f243-4a3f-9d58-b5297a84848e",
+            "containerId": "e178414e-f751-43f9-96a6-022ab62e3f67",
+            "name": "seeProductsForCategory",
+            "url": "seeProductsForCategory",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-02-23T06:46:26.816Z",
+            "modified": "2024-02-23T14:53:25.265Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "search",
+                    "value": "sport",
+                    "isDisabled": true,
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "search",
+                        "value": "65cee9a4a6cdf3cdeff801fe"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "c529977b-3b43-40ea-9ac6-f5d12a545b82",
+            "colId": "b18fcf7f-f243-4a3f-9d58-b5297a84848e",
+            "containerId": "e178414e-f751-43f9-96a6-022ab62e3f67",
+            "name": "restStock",
+            "url": "restStock/65d3ef61b0cc0377ef837f5f",
+            "method": "PUT",
+            "sortNum": 70000,
+            "created": "2024-02-23T06:46:28.504Z",
+            "modified": "2024-02-23T13:38:09.948Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "03d58955-2612-4723-a5df-b4bb7b0a1f32",
+            "colId": "b18fcf7f-f243-4a3f-9d58-b5297a84848e",
+            "containerId": "e178414e-f751-43f9-96a6-022ab62e3f67",
+            "name": "addStock",
+            "url": "addStock/65d80fd182b8d7dd774cfaec",
+            "method": "PUT",
+            "sortNum": 80000,
+            "created": "2024-02-23T06:46:29.967Z",
+            "modified": "2024-02-23T13:38:33.389Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "localhost:2657/"
+        }
+    }
+}
