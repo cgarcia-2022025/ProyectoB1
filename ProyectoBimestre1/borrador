@@ -1,0 +1,70 @@
+ADMIN
+    Gestión de productos: 
+    --agregar nuevos productos a la base de datos, --HECHO--
+    --visualizar tanto productos individuales como el catálogo completo, --HECHO--
+    --editar detalles específicos de un producto, --HECHO--
+    --llevar un control exhaustivo del inventario, --SE DEBE PREGUNTAR--
+    --identificar productos agotados, --HECHO-- 
+    --obtener información sobre los productos más vendidos, --HECHO--
+    --realizar modificaciones en la información del producto, --HECHO--
+    --eliminar un producto. --HECHO--
+
+    Gestión de categorías: 
+    --Se refiere a la posibilidad de agregar nuevas categorías a la base de datos, --HECHO--
+    --visualizar todas las categorías existentes, --HECHO--
+    --realizar ediciones en la información de una categoría --HECHO--
+    --eliminarla. --HECHO--
+    --En caso de que un producto esté asociado a una categoría que se requiere eliminar, el sistema asegura que el producto
+    se transfiera automáticamente a una categoría predeterminada. --HECHO--
+
+    Gestión de usuarios: 
+    --permite agregar nuevos usuarios, --HECHO--
+    --modificar el rol al que pertenecen (Administrador [ADMIN] o Cliente [CLIENT]), --HECHO--
+    --editar la información de un usuario (sujeto a restricciones específicas para usuarios con rol cliente), --HECHO--
+    --eliminar usuarios (también sujeto a las restricciones mencionadas). --HECHO--
+
+    Gestión de facturas: 
+    --capacidad de editar una factura, con validación del stock para garantizar su actualización. --HECHO--
+    --visualizar las facturas asociadas a usuarios específicos, --FALTO--
+    --visualizar los productos detallados en una factura. --FALTO--
+
+
+                                                                _________ FUNCIONALIDADES DE ADMIN HECHAS : 16 DE 20 
+
+
+CLIENT
+    Autenticación de Usuario: 
+    --Incluye la capacidad de iniciar sesión y/o registrarse, donde el registro automático
+    asigna al usuario el rol de cliente. El acceso a todas las funciones descritas está condicionado a la autenticación
+    exitosa mediante usuario y contraseña. --HECHO--
+
+    Exploración de Productos: 
+    --visualizar el catálogo de productos más vendidos, --HECHO--
+    --buscar productos por nombre, --HECHO--
+    --explorar las categorías existentes y acceder al catálogo de productos filtrado por categoría. --HECHO--
+
+    Gestión de Carrito de Compras: 
+    --Habilita la opción de agregar productos al carrito de compras para su posterior
+    adquisición. --HECHO--
+
+    Proceso de Compra: 
+    --Permite a los usuarios completar el proceso de compra, presentando una factura
+    detallada como resultado de la transacción. --HECHO--
+
+    Historial de Compra: 
+    --Al iniciar sesión, los usuarios pueden acceder a un historial completo de sus compras
+    anteriores. --HECHO--
+
+    Gestión de perfil: 
+    --Ofrece la posibilidad de editar detalles del perfil del usuario, como información personal y
+    preferencias. --HECHO--
+
+    Eliminación de Cuenta: 
+    --Permite a los usuarios eliminar su cuenta, sujeto a confirmación y medidas de
+    seguridad adicionales --HECHO--
+
+
+                                                                _________ FUNCIONALIDADES DE USER HECHAS : 9 DE 9 _________                                                                                                                                   :
+
+
+
